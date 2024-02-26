@@ -1,0 +1,36 @@
+array:3 [▼ // app/Http/Controllers/PaymentController.php:86
+  "status" => "success"
+  "message" => "Transaction fetched successfully"
+  "data" => array:21 [▼
+    "id" => 4930290
+    "tx_ref" => "BSU-CSL202473700983"
+    "flw_ref" => "FLW-MOCK-857dcb000f8681421adf97130d781a81"
+    "device_fingerprint" => "5b6bb1e45adfed37be01ebb987d69f17"
+    "amount" => 500
+    "currency" => "NGN"
+    "charged_amount" => 500
+    "app_fee" => 7
+    "merchant_fee" => 0
+    "processor_response" => "successful"
+    "auth_model" => "PIN"
+    "ip" => "54.75.161.64"
+    "narration" => "CARD Transaction "
+    "status" => "successful"
+    "payment_type" => "card"
+    "created_at" => "2024-02-24T08:19:28.000Z"
+    "account_id" => 787002
+    "card" => array:7 [▶]
+    "meta" => array:2 [▼
+      "__CheckoutInitAddress" => "https://ravemodal-dev.herokuapp.com/v3/hosted/pay"
+      "reg_number" => "20233200485hj"
+    ]
+    "amount_settled" => 493
+    "customer" => array:5 [▼
+      "id" => 2360055
+      "name" => "Paul-Ben "
+      "phone_number" => "08098876354"
+      "email" => "paulben.ajene@gmail.com"
+      "created_at" => "2024-02-24T08:19:28.000Z"
+    ]
+  ]
+]
